@@ -1,0 +1,288 @@
+/*comentario*/
+
+@import url('https://fonts.googleapis.com/css2? family= Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700 & display=swap');
+/* fuente a utilizar */
+
+*{
+    margin: 10;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;;
+}
+
+/* color del body */
+body{
+    background-color:white;
+}
+
+/* color del header  */
+.colorFondoPrincipal{
+background-color: white;
+position: sticky;
+top: 0px;
+z-index: 10;
+}
+
+/* medida del logo */
+.contenedorLogo .Logo{
+    width:90vh;
+    height: 50vh;
+    background-color: aqua;
+}
+
+/* centrado de logo*/
+.contenedorLogo{
+    text-align: center;
+    
+}
+
+/*configuracion de la lista de navegacion*/
+.listaNavegacion{
+    text-align: center;
+    background-color: rgb(229, 172, 172);
+    margin: 0%;
+}
+
+/* estilado de links de configuracion */
+.linkNav{
+    text-decoration: none;
+    color: black;
+    display: inline-block;  
+    padding: 10px;
+    width: 200px;
+    height: 40px;
+}
+
+
+/*secciones del main de todas las paginas*/
+.seccionMainIndex{
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 20px;
+    width: 80%;
+    margin:0 auto;
+    margin-bottom: 20px;
+}
+
+.seccionMainOrigenes{
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 20px;
+    width: 80%;
+    margin:0 auto;
+    margin-bottom: 20px;
+}
+
+.seccionMainTratamientos{
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 20px;
+    width: 80%;
+    margin:0 auto;
+    margin-bottom: 20px;
+}
+
+.seccionMainProductos{
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 20px;
+    width: 80%;
+    margin:0 auto;
+    margin-bottom: 20px;
+}
+
+.seccionMainContacto{
+    font-size: 1.2rem;
+    padding: 20px;
+    width: 80%;
+    margin:0 auto;
+    margin-bottom: 20px;
+}
+
+/* color de footer en todas las paginas */
+.colorFondoFooter{
+    background-color: rgb(229, 172, 172);
+}
+
+/*leyenda de de pie de pagina*/
+.copyZalez{
+    color: black;
+    text-align: center;
+}
+
+
+/*listado de las imagenes de las redes sociales*/
+.listaImagenRed{
+    text-align: center;
+}
+
+/*Imagen de la red Social*/
+.imagenRed{
+    padding: 10px;
+    width: 60px;
+    display: inline-block;
+}
+
+/*lista de redes sociales del footer*/
+.listaRedesSociales{
+    text-align: center;
+}
+
+/*configuracion de los links de las redes sociales*/
+.liksRedes{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    width: 200px;
+    height: 40px;
+}
+
+/* texto centrado de pagina index */
+.textoCentrado{
+    text-align: center;
+}
+
+/*imagen de fondo de pagina index*/
+.imagenFondoIndex{
+    height: 100vh;
+    background-image: url(../assets/img/dermaplaning.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+/*imagen de fondo de pagina origenes*/
+.imagenFondoOrigenes{
+    height: 100vh;
+    background-image: url(../assets/img/limpieza\ facial.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+/*imagen de fondo de pagina de tratamientos*/
+.imagenFondoTratamientos{
+    height: 100vh;
+    background-image: url(../assets/img/microblading.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: right;
+}
+
+/*imagen de fondo de papgina productos*/
+.imagenFondoProductos{
+    height: 100vh;
+    background-image: url(../assets/img/imagen\ de\ productos.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+/* Imagen de fondo de pagina contactos */
+.imagendeFondoContacto{
+    height: 100vh;
+    background-image: url(../assets/img/imagen\ de\ contacto.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+/*seccion de productos de norma bustos*/
+.seccionProductos{
+    height: 110vh;
+    background-image: url(../assets/img/fondo\ de\ secciones.avif);
+    background-size:cover;
+    background-attachment:unset;
+    margin: 20px;
+    border-radius: 50px;
+}
+
+/*titulo norma bustos*/
+.tituloNorma{
+    text-align:center;
+    background-color: rgba(229, 172, 172, 0.592);
+    font-size: 2rem;
+    padding: 20px;
+    width: 20%;
+    margin:0 auto;
+    margin-bottom: 20px;
+    border-radius: 50px;
+}
+
+/*contenedor de los contenedores de las imagenes de norma bustos*/
+.contenedorNorma{
+    width: 80%;
+    margin: 0 auto;
+}
+
+/*contenedor de las imagenes de los productos*/
+.cardNorma{
+    width: 22%;
+    height: 550px;
+    background-color: rgba(229, 172, 172, 0.592);
+    margin: 10px;
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.388);
+    padding: 10px;
+}
+
+/*imagen de productos de norma bustos*/
+.cardNorma img{
+    width: 100%;
+    height: 85%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+/*titulo de la imagen de los productos de norma bustos*/
+.cardNorma h2{
+    text-align: center;
+    color: black;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+/*seccion de Brenda Magali Gonzalez*/
+.seccionBrenda{
+    width: 80%;
+    background-image: url(../assets/img/fondo\ de\ brenda.webp);
+    text-align: left;
+    margin: 20px;
+    text-align: center;
+    border-radius: 50px;
+}
+
+/*contenedor de la imagen de Brenda*/
+.contenedorImgBrenda{
+    width: 50%;
+    display: inline-block;
+    margin: 15px;
+}
+
+/*configuracion de la imagen de Brenda*/
+.imagenBrenda{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(3, 3, 3, 0.648);
+}
+/*contenedor del texto de Brenda*/
+.contenedorTextoBrenda{
+    width: 30%;
+    display: inline-block;
+}
+
+
+.lidherma{
+    display: flex;
+    flex-wrap: wrap;
+    height: 90vh;
+    width: 80%;
+    margin: 0 auto;
+    background-color: brown;
+    justify-content: space-around;
+}
+
+.lidherma img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
