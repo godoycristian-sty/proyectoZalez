@@ -6,36 +6,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zalez - Tratamientos</title>
     <link rel="shortcut icon" href="../favicon.ico.jpg">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/estilos.css">
 
 </head>
-<body>
+<body class="container-fluid fondoBody">
     <header class="colorFondoPrincipal">
-        <nav>
-            <ul class="listaNavegacion">
-                <li>
-                    <a class="linkNav" href="../index.html">Inicio</a>
-
-                    <a class="linkNav" href="./Origenes.html">Origenes</a>
-
-                    <a class="linkNav" href="#">Tratamientos</a>
-
-                    <a class="linkNav" href="./Productos.html">Productos</a>
-
-                    <a class="linkNav" href="./Contacto.html">Contacto</a>
-                </li>
-            </ul>
-
-        </nav>
+        <!--navegacion (link de navegacion)-->
+        <nav class="navbar navbar-expand-lg navbar-light colorNav">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="../index.html">
+                <img class="logoZ" src="../assets/img/Logo Zalez.jpg" alt="">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 align-items-center justify-content-around w-100 "> 
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../pages/Origenes.html">Origenes</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Tratamientos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../pages/Contacto.html">Contacto</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Productos
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item" href="../pages/cristinamoro.html">Cristina Moro</a></li>
+                      <li><a class="dropdown-item" href="../pages/normabustos.html">Norma Bustos</a></li>
+                      <li><a class="dropdown-item" href="../pages/exel.html">Exel</a></li>
+                      <li><a class="dropdown-item" href="../pages/dermassy.html">Dermassy</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
     </header>
-    <section>
-        <div class="contenedorLogo">
-            <!--imagen del logo de la pagina-->
+    
+    <section class="row seccionLogo">
+      <div class="col-sm-12 col-md-5 contenedorLogo">
+          <!--imagen del logo de la pagina-->
             <img class="Logo" src="../assets/img/Zalez ..jpg" alt="Logo Zalez">
         </div>
-
     </section>
-
+    
     <main class="imagenFondoTratamientos">
         
         <section class="seccionMainTratamientos">
@@ -84,6 +107,6 @@
                 </div>
             </div>
         </footer>
-
+        <script src="../js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

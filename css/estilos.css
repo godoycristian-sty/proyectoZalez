@@ -10,11 +10,15 @@
     font-family: 'Roboto Condensed', sans-serif;;
 }
 
-/* color del body */
 body{
-    background-color:white;
+    width: 100%;
+    height: 100vh;
 }
 
+/* color del body */
+.fondoBody{
+   background-color: white;
+}
 /* color del header  */
 .colorFondoPrincipal{
 background-color: white;
@@ -23,34 +27,36 @@ top: 0px;
 z-index: 10;
 }
 
-/* medida del logo */
-.contenedorLogo .Logo{
-    width:90vh;
-    height: 50vh;
-    background-color: aqua;
-}
 
 /* centrado de logo*/
 .contenedorLogo{
-    text-align: center;
-    
+    width:90vh;
+    height: 50vh;
+    margin: 0 auto;
 }
+
+/* medida del logo */
+.contenedorLogo .Logo{
+    width:100%;
+    height: 100%;
+    text-align: center;
+}
+
 
 /*configuracion de la lista de navegacion*/
-.listaNavegacion{
+.colorNav{
     text-align: center;
     background-color: rgb(229, 172, 172);
-    margin: 0%;
+    padding: 10px;
+    width: 100%;
+    height: 7vh;
 }
 
-/* estilado de links de configuracion */
-.linkNav{
-    text-decoration: none;
-    color: black;
-    display: inline-block;  
-    padding: 10px;
-    width: 200px;
-    height: 40px;
+
+.logoZ{
+    width: 100%;
+    height: 30px;
+    object-fit: cover;
 }
 
 
@@ -241,19 +247,14 @@ z-index: 10;
 /*seccion de Brenda Magali Gonzalez*/
 .seccionBrenda{
     width: 80%;
+    height: 70vh;
     background-image: url(../assets/img/fondo\ de\ brenda.webp);
+    background-size: cover;
     text-align: left;
     margin: 20px;
-    text-align: center;
     border-radius: 50px;
 }
 
-/*contenedor de la imagen de Brenda*/
-.contenedorImgBrenda{
-    width: 50%;
-    display: inline-block;
-    margin: 15px;
-}
 
 /*configuracion de la imagen de Brenda*/
 .imagenBrenda{
@@ -263,6 +264,12 @@ z-index: 10;
     border-radius: 50px;
     box-shadow: 0 0 10px rgba(3, 3, 3, 0.648);
 }
+/*contenedor del texto de Brenda*/
+.contenedorTextoBrenda{
+    width: 30%;
+    display: inline-block;
+}
+
 /*contenedor del texto de Brenda*/
 .contenedorTextoBrenda{
     width: 30%;
@@ -284,5 +291,32 @@ z-index: 10;
     width: 300px;
     height: 300px;
     object-fit: cover;
+}
+
+.seccionOrigenes{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    background-image: url(../assets/img/fondo.jpeg);
+    margin-top: 20px;
+    margin: 20px;
+    border-radius: 50px;
+}
+
+.image{
+    width: 100%;
+}
+
+.carousel-item{
+height: 70vh;
+}
+
+.carousel-item img{
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50px;
+
 }
 
